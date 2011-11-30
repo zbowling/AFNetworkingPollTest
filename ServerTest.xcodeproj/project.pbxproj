@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90ACCD91485E4A200DF769A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90ACCD81485E4A200DF769A /* UIKit.framework */; };
+		D90ACCDB1485E4A200DF769A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90ACCDA1485E4A200DF769A /* Foundation.framework */; };
+		D90ACCDD1485E4A200DF769A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90ACCDC1485E4A200DF769A /* CoreGraphics.framework */; };
+		D90ACCE31485E4A200DF769A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D90ACCE11485E4A200DF769A /* InfoPlist.strings */; };
+		D90ACCE51485E4A200DF769A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D90ACCE41485E4A200DF769A /* main.m */; };
+		D90ACCE91485E4A200DF769A /* ZBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90ACCE81485E4A200DF769A /* ZBAppDelegate.m */; };
+		D90ACCEC1485E4A200DF769A /* ZBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90ACCEB1485E4A200DF769A /* ZBViewController.m */; };
+		D90ACCEF1485E4A200DF769A /* ZBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90ACCED1485E4A200DF769A /* ZBViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D90ACCD41485E4A200DF769A /* ServerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90ACCD81485E4A200DF769A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D90ACCDA1485E4A200DF769A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D90ACCDC1485E4A200DF769A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D90ACCE01485E4A200DF769A /* ServerTest-Info.plist */ = {isa = PBXFileReference; path = "ServerTest-Info.plist"; sourceTree = "<group>"; };
+		D90ACCE21485E4A200DF769A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D90ACCE41485E4A200DF769A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D90ACCE61485E4A200DF769A /* ServerTest-Prefix.pch */ = {isa = PBXFileReference; path = "ServerTest-Prefix.pch"; sourceTree = "<group>"; };
+		D90ACCE71485E4A200DF769A /* ZBAppDelegate.h */ = {isa = PBXFileReference; path = ZBAppDelegate.h; sourceTree = "<group>"; };
+		D90ACCE81485E4A200DF769A /* ZBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBAppDelegate.m; sourceTree = "<group>"; };
+		D90ACCEA1485E4A200DF769A /* ZBViewController.h */ = {isa = PBXFileReference; path = ZBViewController.h; sourceTree = "<group>"; };
+		D90ACCEB1485E4A200DF769A /* ZBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBViewController.m; sourceTree = "<group>"; };
+		D90ACCEE1485E4A200DF769A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZBViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90ACCD11485E4A200DF769A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90ACCD91485E4A200DF769A /* UIKit.framework in Frameworks */,
+				D90ACCDB1485E4A200DF769A /* Foundation.framework in Frameworks */,
+				D90ACCDD1485E4A200DF769A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90ACCC91485E4A200DF769A = {
+			isa = PBXGroup;
+			children = (
+				D90ACCDE1485E4A200DF769A /* ServerTest */,
+				D90ACCD71485E4A200DF769A /* Frameworks */,
+				D90ACCD51485E4A200DF769A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90ACCD51485E4A200DF769A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90ACCD41485E4A200DF769A /* ServerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90ACCD71485E4A200DF769A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90ACCD81485E4A200DF769A /* UIKit.framework */,
+				D90ACCDA1485E4A200DF769A /* Foundation.framework */,
+				D90ACCDC1485E4A200DF769A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90ACCDE1485E4A200DF769A /* ServerTest */ = {
+			isa = PBXGroup;
+			children = (
+				D90ACCE71485E4A200DF769A /* ZBAppDelegate.h */,
+				D90ACCE81485E4A200DF769A /* ZBAppDelegate.m */,
+				D90ACCEA1485E4A200DF769A /* ZBViewController.h */,
+				D90ACCEB1485E4A200DF769A /* ZBViewController.m */,
+				D90ACCED1485E4A200DF769A /* ZBViewController.xib */,
+				D90ACCDF1485E4A200DF769A /* Supporting Files */,
+			);
+			path = ServerTest;
+			sourceTree = "<group>";
+		};
+		D90ACCDF1485E4A200DF769A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D90ACCE01485E4A200DF769A /* ServerTest-Info.plist */,
+				D90ACCE11485E4A200DF769A /* InfoPlist.strings */,
+				D90ACCE41485E4A200DF769A /* main.m */,
+				D90ACCE61485E4A200DF769A /* ServerTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90ACCD31485E4A200DF769A /* ServerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90ACCF21485E4A200DF769A /* Build configuration list for PBXNativeTarget "ServerTest" */;
+			buildPhases = (
+				D90ACCD01485E4A200DF769A /* Sources */,
+				D90ACCD11485E4A200DF769A /* Frameworks */,
+				D90ACCD21485E4A200DF769A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerTest;
+			productName = ServerTest;
+			productReference = D90ACCD41485E4A200DF769A /* ServerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90ACCCB1485E4A200DF769A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "i'mhello";
+			};
+			buildConfigurationList = D90ACCCE1485E4A200DF769A /* Build configuration list for PBXProject "ServerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D90ACCC91485E4A200DF769A;
+			productRefGroup = D90ACCD51485E4A200DF769A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90ACCD31485E4A200DF769A /* ServerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90ACCD21485E4A200DF769A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90ACCE31485E4A200DF769A /* InfoPlist.strings in Resources */,
+				D90ACCEF1485E4A200DF769A /* ZBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90ACCD01485E4A200DF769A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90ACCE51485E4A200DF769A /* main.m in Sources */,
+				D90ACCE91485E4A200DF769A /* ZBAppDelegate.m in Sources */,
+				D90ACCEC1485E4A200DF769A /* ZBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D90ACCE11485E4A200DF769A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90ACCE21485E4A200DF769A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D90ACCED1485E4A200DF769A /* ZBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90ACCEE1485E4A200DF769A /* en */,
+			);
+			name = ZBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90ACCF01485E4A200DF769A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D90ACCF11485E4A200DF769A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90ACCF31485E4A200DF769A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerTest/ServerTest-Prefix.pch";
+				INFOPLIST_FILE = "ServerTest/ServerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D90ACCF41485E4A200DF769A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerTest/ServerTest-Prefix.pch";
+				INFOPLIST_FILE = "ServerTest/ServerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90ACCCE1485E4A200DF769A /* Build configuration list for PBXProject "ServerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90ACCF01485E4A200DF769A /* Debug */,
+				D90ACCF11485E4A200DF769A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90ACCF21485E4A200DF769A /* Build configuration list for PBXNativeTarget "ServerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90ACCF31485E4A200DF769A /* Debug */,
+				D90ACCF41485E4A200DF769A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90ACCCB1485E4A200DF769A /* Project object */;
+}
