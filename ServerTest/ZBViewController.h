@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ZBViewController : UIViewController
+- (IBAction)runTest:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 
 @end
